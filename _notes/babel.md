@@ -1,4 +1,7 @@
 ## Dependencies
+  Setting up Babel 6
+  https://babeljs.io/blog/2015/10/31/setting-up-babel-6
+  
   npm install -D babel-cli babel-loader babel-preset-es2015 babel-preset-react
 
 ## babel configuration 
