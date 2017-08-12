@@ -1,0 +1,19 @@
+@mixin background-it($path) {
+  background-image: $path;
+  color: white;
+}
+
+$bg-image: url(/img/bg.jpg);
+$text-color: white;
+.custom {
+  @include background-it($bg-image)
+}
+
+.app-appear {
+  opacity: 0.01
+}
+
+.app-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}

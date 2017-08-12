@@ -1,0 +1,29 @@
+{
+  "name": "react-webpack-stunning",
+  "version": "1.0.0",
+  "description": "## Reference    Learning Path: React: Make Stunning React Websites   https://www.udemy.com/learning-path-react-make-stunning-react-websites/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminhuanghuang/react-webpack-stunning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminhuanghuang/react-webpack-stunning/issues"
+  },
+  "homepage": "https://github.com/benjaminhuanghuang/react-webpack-stunning#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "react": "^15.6.1",
+    "react-dom":"^15.6.1"
+  }
+}
