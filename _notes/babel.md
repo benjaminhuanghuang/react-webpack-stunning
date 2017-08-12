@@ -1,5 +1,5 @@
 ## Dependencies
-  npm install -D css-loader extract-text-webpack-plugin
+  npm install -D babel-cli babel-loader babel-preset-es2015 babel-preset-react
 
 ## babel configuration 
   In webpack.config.js, tell webpack run the babel loader
