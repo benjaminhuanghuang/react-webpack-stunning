@@ -6,7 +6,7 @@ import Jumbotron from './components/Jumbotron';
 // import './sass/app.scss';
 export default ()=>{
   return(
-    <Jumbotron className = '-fluid custom' >
+    <Jumbotron className = '-fluid custom' containerFluid={true}>
       <h1> Build React.js UI </h1>   
       <p> with Bootstrap and SASS </p>
       <p>

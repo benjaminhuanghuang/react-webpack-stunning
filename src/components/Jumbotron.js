@@ -8,10 +8,11 @@ import Container from './Container';
 export default class Jumbotron extends React.Component {
   render() {
     const props = Object.assign({}, this.props);
-
+    const containerFluid = props.containerFluid;
+    
     return (
       <div {...props} >
-        <Container>
+        <Container fluid={containerFluid}>
           {this.props.children}
         </Container>
       </div>
