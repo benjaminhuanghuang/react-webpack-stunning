@@ -7,14 +7,17 @@ import Container from './Container';
 
 export default class Jumbotron extends React.Component {
   render() {
+    const CSS_NAME = 'jumbotron';
     const props = Object.assign({}, this.props);
+    props.className = classify(CSS_NAME, props.className);
     const containerFluid = props.containerFluid;
-    
+    const body = props.className.includes(CSS_NAME + '-fluid') ?
+    <Container>{this.props.children}</Container> :
+    this.props.children;
+
     return (
       <div {...props} >
-        <Container fluid={containerFluid}>
-          {this.props.children}
-        </Container>
+          {body}
       </div>
     );
   } 

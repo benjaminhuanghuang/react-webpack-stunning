@@ -21,16 +21,16 @@ module.exports = {
         loader: 'babel-loader'
       },
       {
-        test: /\.css$ /,
-        loader:ExtractTextPlugin.extract(['css'])
+        test: /\.css$/,
+        loader: ExtractTextPlugin.extract('css-loader')
       },
       {
-        test: /\.(sass|scss)$ /,
-        loader:ExtractTextPlugin.extract(['css','sass'])
+        test: /\.(sass|scss)$/,
+        loader: ExtractTextPlugin.extract(['css', 'sass'])
       }
     ]
   },
-  plugins:[
-    new ExtractTextPlugin('css/app.css')
+  plugins: [
+    new ExtractTextPlugin('css/app.css')  // <output path>/css/app.css
   ]
 }

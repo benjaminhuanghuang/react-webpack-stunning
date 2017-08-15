@@ -1,10 +1,16 @@
+.custom {
+  background-image: url(/img/forest.jpg);
+  color: white;
+}
+/*
 @mixin background-it($path) {
   background-image: $path;
   color: white;
 }
 
-$bg-image: url(/img/bg.jpg);
+$bg-image: url(/img/forest.jpg);
 $text-color: white;
+
 .custom {
   @include background-it($bg-image)
 }
@@ -16,4 +22,4 @@ $text-color: white;
 .app-appear-active {
   opacity: 1;
   transition: opacity 500ms ease-in;
-}
+}*/
