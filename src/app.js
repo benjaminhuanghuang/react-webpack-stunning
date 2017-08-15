@@ -3,7 +3,7 @@ import React from 'react';
 import Button from './components/Button';
 import Jumbotron from './components/Jumbotron';
 
-import './sass/app.scss';
+// import './sass/app.scss';
 export default ()=>{
   return(
     <Jumbotron className = '-fluid custom' >

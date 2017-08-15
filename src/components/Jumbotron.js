@@ -1,12 +1,26 @@
 import React from 'react';
 //
 import { classify } from '../utils';
+import Container from './Container';
 
-import '.jumbotron.scss';
+//import './jumbotron.scss';
 
 export default class Jumbotron extends React.Component {
   render() {
-    const CSS_NAME = 'jumbotron';
+    const props = Object.assign({}, this.props);
+
+    return (
+      <div {...props} >
+        <Container>
+          {this.props.children}
+        </Container>
+      </div>
+    );
+  } 
+}
+/*
+className={classify('jumbotron', props.className)}
+const CSS_NAME = 'jumbotron';
     const props = Object.assign({}, this.props);
     props.className = classify(CSS_NAME, props.className);
     const containerFluid = props.containerFluid;
@@ -21,5 +35,4 @@ export default class Jumbotron extends React.Component {
         {body}
       </div>
     );
-  }
-}
+*/
