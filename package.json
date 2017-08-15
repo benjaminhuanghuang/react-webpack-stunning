@@ -30,7 +30,8 @@
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "react": "^15.6.1",
-    "react-dom":"^15.6.1"
+    "react-dom":"^15.6.1",
+    "react-addons-css-transition-group":"^15.6.0"
   },
   "babel":{
     "presets":["es2015", "react"]

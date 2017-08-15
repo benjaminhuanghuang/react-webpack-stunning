@@ -1,19 +1,13 @@
 @import "../../node_modules/bootstrap/scss/_variables";
 
-$bg-image: url(/img/forest.jpg);
-$text-color: white;
-
-.custom {
-  background-image: $bg-image;
-  color: $text-color;
-}
-/*
 @mixin background-it($path) {
   background-image: $path;
   color: white;
 }
 
 
+$bg-image: url(/img/forest.jpg);
+$text-color: white;
 
 .custom {
   @include background-it($bg-image)
@@ -26,4 +20,4 @@ $text-color: white;
 .app-appear-active {
   opacity: 1;
   transition: opacity 500ms ease-in;
-}*/
+}
