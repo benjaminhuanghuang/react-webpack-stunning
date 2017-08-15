@@ -1,6 +1,9 @@
+$bg-image: url(/img/forest.jpg);
+$text-color: white;
+
 .custom {
-  background-image: url(/img/forest.jpg);
-  color: white;
+  background-image: $bg-image;
+  color: $text-color;
 }
 /*
 @mixin background-it($path) {
@@ -8,8 +11,7 @@
   color: white;
 }
 
-$bg-image: url(/img/forest.jpg);
-$text-color: white;
+
 
 .custom {
   @include background-it($bg-image)

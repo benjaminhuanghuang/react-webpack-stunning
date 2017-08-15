@@ -13,9 +13,16 @@
   npm install -D sass-loader node-sass
 
   extract-text-webpack-plugin extract styles from .js file and generate a separate .css file
+  sass-loader depends on node-sass
 
 ## webpack.config.js
-
+  ```
+  {
+    test: /\.(sass|scss)$/,
+    loader: ExtractTextPlugin.extract('css-loader!sass-loader')
+  }
+  ```
+  Convert sass to css , then execute css loader, then extract css 
   
 ## css loader
 

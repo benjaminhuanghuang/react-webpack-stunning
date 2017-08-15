@@ -3,11 +3,11 @@ import React from 'react';
 import Button from './components/Button';
 import Jumbotron from './components/Jumbotron';
 
-import './sass/app.css';
+import './sass/app.scss';
 
 export default ()=>{
   return(
-    <Jumbotron className = '-fluid custom' containerFluid={true}>
+    <Jumbotron className = '-fluid custom'>
       <h1> Build React.js UI </h1>   
       <p> with Bootstrap and SASS </p>
       <p>

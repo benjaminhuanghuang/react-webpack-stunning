@@ -26,11 +26,11 @@ module.exports = {
       },
       {
         test: /\.(sass|scss)$/,
-        loader: ExtractTextPlugin.extract(['css', 'sass'])
+        loader: ExtractTextPlugin.extract('css-loader!sass-loader')
       }
     ]
   },
   plugins: [
-    new ExtractTextPlugin('css/app.css')  // <output path>/css/app.css
+    new ExtractTextPlugin('css/bundle.css')  // <output path>/css/bundle.css
   ]
 }
