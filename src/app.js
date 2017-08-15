@@ -14,10 +14,14 @@ export default () => {
         <h1> Build React.js UI </h1>
         <p> with Bootstrap and SASS </p>
         <p>
-          <Button className="-primary" href="www.google.com" target="_blank"></Button>
-          <Button className="-danger-outline -sm" disabled></Button>
+          <Button className="-primary" href="www.google.com" target="_blank">
+            Other Way
+          </Button>
+          <Button className="-outline-danger -sm" label="Use label property">
+          </Button>
         </p>
-        <Button className="-primary-outline -lg -block" disabled />
+        <Button className="-outline-success -lg -block" label="Discover things and stuff">
+        </Button>
       </Jumbotron>
     </ReactCSSTransitionGroup>
   );
