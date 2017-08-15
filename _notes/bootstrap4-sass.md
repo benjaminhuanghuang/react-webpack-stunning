@@ -24,10 +24,6 @@
   ```
   Convert sass to css , then execute css loader, then extract css 
   
-## css loader
-
-## Extracting-text-webpack-plugin
-
 ## Sass mixin
   "macro" in scss
 
